@@ -1,0 +1,54 @@
+
+header{
+    position:relative;
+    height: 300px;
+   background-image: url(./images\ \(4\).jpg) ;
+   padding: 30px
+   
+}
+input{
+    position:absolute;
+    bottom: 150px;
+    right:500px;
+    float: right;
+    width:475px;
+    height: 50px;
+    box-shadow: 0 0 4px red;
+    border-radius: 50px;
+} 
+.menu> ul > li {
+    line-height: 5px;
+    
+	display: inline-block; }
+.menu > ul > li > a {
+	display: block;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-size: smaller;
+	color: white;
+	padding: 0 5px;
+	line-height: 40px; }
+.menu > ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	border-radius: 3px;
+	background-color: black;
+	text-align: center; }
+.menu > ul > li > a:hover {
+	color: gray; }
+    
+.column{
+        position: relative;
+        margin: auto;
+        padding: auto;
+        width: 50%;
+        float:left;
+    }
+aside{
+    position: absolute;
+    width: 25px;
+    right: 400px;
+    top: 500px;
+}
+
